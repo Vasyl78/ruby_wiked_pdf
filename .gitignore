@@ -1,0 +1,13 @@
+
+/tmp
+/coverage
+/output
+/templates
+
+!/output/.keep
+!/tmp/.keep
+
+!/templates/images/.keep
+!/templates/layouts/.keep
+!/templates/.keep
+.DS_Store

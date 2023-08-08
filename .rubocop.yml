@@ -1,0 +1,23 @@
+require:
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 3.2.0
+  SuggestExtensions: false
+  Exclude:
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+  NewCops: enable
+
+Metrics/MethodLength:
+  Max: 15
+  CountAsOne: ["array", "hash"]
+
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
